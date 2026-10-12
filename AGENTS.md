@@ -16,7 +16,12 @@
 3. Read the **last 3–5 entries** of `.memory-bank/progress.md` (entries are newest-first).
 4. Read `.memory-bank/product-context.md` and `.memory-bank/system-architecture.md` too
    whenever the task touches product behaviour, UI, design tokens, picks, or the ledger.
-5. Before editing anything, state in 1–2 lines: what you learned, which files you will
+5. **For ANY UI work — layout, component, spacing, colour, type, iconography, motion, or
+   restyling — read `.memory-bank/design-references.md` and study the five reference sites
+   (FotMob, Flashscore, Linear, Vercel, Raycast) before writing markup or CSS.** Match their
+   polish, spacing and hierarchy; write the 3-line design note it requires; avoid every
+   pattern in its banned list. VigDecoded must never look like a generic AI-generated site.
+6. Before editing anything, state in 1–2 lines: what you learned, which files you will
    touch, and any conflict with the memory bank.
    **If the request contradicts the memory bank, stop and ask — do not silently pick a side.**
 
@@ -108,6 +113,9 @@ Rules:
 
 ## 4. UI conventions
 
+- **Study `.memory-bank/design-references.md` before any UI work** and match that standard
+  of polish, spacing and hierarchy. Design note first, code second. Never ship the generic
+  AI-website look it lists as banned.
 - **"Today at a glance"** is the summary card at the top of the page: today's card date,
   number of picks, and the headline state. It summarises — it must never be the only
   place a fact exists; it reads from the same data as the detail sections.
@@ -129,6 +137,7 @@ Rules:
 | `.memory-bank/product-context.md` | What VigDecoded is, promise, features, non-goals, open product questions | product rules or scope change |
 | `.memory-bank/active-context.md` | Current focus, repo state, recent decisions, blockers, next steps | **every task** |
 | `.memory-bank/system-architecture.md` | Stack, file layout, tokens, data concepts/flows, conventions | structure, tokens, data shape change |
+| `.memory-bank/design-references.md` | The five reference sites, what to take from each, the craft floor, banned generic-AI patterns, study procedure | **read before any UI work**; update when references or craft rules change |
 | `.memory-bank/progress.md` | Append-only dated log of what was actually done | **every task** |
 
 ### Entry format — `progress.md` (newest first)
@@ -166,6 +175,11 @@ Rules:
 
 - Never start work without the BEFORE reads, and never end a turn without the AFTER writes.
 - Never rewrite history in `progress.md` or in `.memory-bank/` to look tidier.
+- Never do UI work without studying `.memory-bank/design-references.md` first, and never
+  ship the banned generic-AI patterns (purple gradients, emoji iconography, glassmorphism,
+  three-identical-feature-cards, centred filler, invented stat rows).
+- Never copy logos, crests, images, icons or copy from the reference sites — take craft
+  principles only, never assets or trade dress.
 - Never invent data: no fabricated odds, results, fixtures, records or screenshots.
 - Never delete a losing ledger row to "clean up".
 - Never commit secrets, tokens or credentials (API keys for a results/fixtures feed live in

@@ -38,6 +38,7 @@ _Last reviewed: 2026-10-12 (memory bank created)._
     ├── product-context.md          ← what VigDecoded is
     ├── active-context.md           ← current state (read every task)
     ├── system-architecture.md      ← this file
+    ├── design-references.md        ← UI standard: 5 reference sites, craft floor, banned patterns
     └── progress.md                 ← append-only dated log
 ```
 
@@ -120,6 +121,9 @@ No step may write to a published card; settlement only ever adds outcome data.
 
 ## 8. Conventions
 
+- **UI work follows `design-references.md`** — that file holds the visual standard (the five
+  reference sites, the craft floor: spacing ladder, type scale, tabular numerals, states),
+  plus the list of banned generic-AI patterns. Study it before any layout/component change.
 - Keep styling token-driven; layout changes that alter the page order update §5.
 - Collapsible sections: if using native `<details>/<summary>`, style `summary` with
   `--ink`/`--mut` and the marker with `--gold`; if JS-driven, keep the toggle a button with

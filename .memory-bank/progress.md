@@ -8,6 +8,34 @@ Entry format is defined in `../AGENTS.md` §5.
 
 ---
 
+## 2026-10-12 — Design references recorded (UI standard)
+
+- **Task:** Create `.memory-bank/design-references.md` listing five inspiration sites
+  (FotMob, Flashscore, Linear, Vercel, Raycast) with clear instructions that before any UI
+  work the agent must study them and match their polish, spacing and hierarchy, avoiding the
+  typical AI-website look.
+- **Did:** Wrote the file: the mandatory pre-UI rule (§0), per-site role table (§1), verified
+  per-site takeaways with what to take *and* never take (§2), a mapping onto our components
+  (§3), a concrete craft floor — spacing ladder, type scale, tabular numerals, alignment,
+  states (§4), the banned generic-AI pattern list with named offenders (§5), the study
+  procedure producing a 3-line design note (§6), and a UI review checklist (§7). Also wired
+  it in: `AGENTS.md` §0 (new mandatory pre-UI read), §4 (UI conventions), §5 (file table),
+  §7 (never-do); `system-architecture.md` §3 file tree + §8 conventions; `README.md`;
+  `active-context.md`.
+- **Result:** Grounded in the live sites, not recalled: fetched fotmob.com, flashscore.com,
+  linear.app, vercel.com, raycast.com on 2026-10-12 and recorded real traits (FotMob league
+  group headers + count badges, `FT`/`+1 day` muted micro-labels, and the honest empty state
+  "No matches today / 4 matches start after midnight"; Flashscore `ENGLAND:`-style block
+  labels, right-aligned numerics, `--` for missing values, plus its ad/gambling clutter as an
+  anti-reference; Linear count-badged group headers and `·`-separated muted metadata; Vercel
+  dark surface layering and one hero glow; Raycast label-pair typography). Flashscore visual
+  reference: image search failed twice, so its notes come from fetched markup only —
+  **needs a visual check** on the next UI task. No assets/screenshots copied into the repo;
+  downloaded search images deleted, nothing binary committed.
+- **Follow-ups:** First real UI task must run the §6 study procedure and write the design
+  note before any markup/CSS. Flashscore needs a visual (not markup-only) look. Re-check
+  reference sites when studying — they redesign.
+
 ## 2026-10-12 — Memory bank created
 
 - **Task:** Create persistent memory so future sessions don't mix up project context:

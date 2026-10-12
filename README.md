@@ -6,9 +6,11 @@ honest card per day, plus a public ledger of wins and losses.
 ## Where to start
 
 - **[`AGENTS.md`](AGENTS.md)** — the working agreement. Read it before every task; it also
-  lists what must be updated after every task.
+  lists what must be updated after every task. **Before any UI work, read
+  [`.memory-bank/design-references.md`](.memory-bank/design-references.md).**
 - **`.memory-bank/`**
   - `product-context.md` — what VigDecoded is, the promise, features, non-goals
   - `active-context.md` — current state, decisions, open questions, next steps
   - `system-architecture.md` — stack, file layout, design tokens, data concepts
+  - `design-references.md` — UI standard: FotMob, Flashscore, Linear, Vercel, Raycast
   - `progress.md` — append-only log of work done (newest first)
