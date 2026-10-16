@@ -8,6 +8,35 @@ Entry format is defined in `../AGENTS.md` §5.
 
 ---
 
+## 2026-10-12 — Commercial direction: no fundraising, affiliate trap documented
+
+- **Task:** Founder asked what to do about funding — investors, affiliate brands — as a
+  founder with no capital.
+- **Did:** Wrote a "Monetisation, funding and the honesty constraint" section into
+  `product-context.md`: the position that this is not a venture-fundable product; the
+  zero-burn → track-record → borrowed-distribution → monetise sequence; the ranking of
+  revenue options by corruption risk (local sponsorship, paid depth, affiliate last,
+  display ads skip); the affiliate trap; Ghana compliance facts; and five hard commercial
+  constraints. Added `AGENTS.md` §2 rule 8 (commercial pressure never touches picks; never
+  paywall the record) and two §7 never-dos. Updated `active-context.md`, added three open
+  questions (distribution channel, first revenue, operating reality).
+- **Result:** Grounded by research on 2026-10-12, not recalled — Ghana Gaming Commission
+  Advertising Guidelines under Act 721 s.3(2)(g), including that an affiliate's advertising
+  falls within the Commission's purview with the licensed operator legally responsible for
+  its agents, that ads must not imply assured wins, must carry "Gamble responsibly / only
+  18 years + / Gambling is addictive", and must not use celebrities; plus live programme
+  terms (1xBet 15–40% RevShare, $30 min, weekly, ~4 new users/period to stay active;
+  Betway 25–40%, €100 min, monthly, negative carryover, betting/sports site required;
+  SportyBet ~35%, ~$50 min, monthly, M-Pesa). Key finding recorded: RevShare pays on player
+  losses and negative carryover turns a winning run into affiliate debt, so accuracy reduces
+  affiliate income — a structural conflict worth knowing before signing. Also recorded the
+  flip side: the regulator's "no assured wins" rule matches this product's promise, so
+  honesty is compliance-native here.
+- **Follow-ups:** Founder must confirm: does he have income that does not consume the daily
+  publishing slot? Which single distribution channel gets the daily card post? Neither has an
+  answer yet, and both gate the first revenue. Nothing here is verified against a real site
+  build — no site code exists in this checkout.
+
 ## 2026-10-12 — Design references recorded (UI standard)
 
 - **Task:** Create `.memory-bank/design-references.md` listing five inspiration sites

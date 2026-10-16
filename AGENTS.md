@@ -77,6 +77,12 @@ against one of these, raise it with the user before implementing.
    advice. Keep any existing disclaimer text intact.
 7. **Stake/odds data is never invented.** Missing odds stay missing; do not back-fill
    plausible-looking numbers.
+8. **Commercial pressure never touches picks.** No sponsor, affiliate partner, advertiser or
+   investor may influence selection, confidence, stake or publication timing — and any
+   change that would advantage a commercial partner is refused and written down. The daily
+   card and the ledger stay free and public; never paywall the record. Betting-related
+   commercial content needs its required warnings and 18+ treatment
+   (`product-context.md` → "Ghana compliance facts"). Undisclosable deals are declined.
 
 ---
 
@@ -180,6 +186,10 @@ Rules:
   three-identical-feature-cards, centred filler, invented stat rows).
 - Never copy logos, crests, images, icons or copy from the reference sites — take craft
   principles only, never assets or trade dress.
+- Never let a commercial partner change a pick, and never paywall the daily card or the
+  ledger. Affiliate/sponsor placement must not outrank or out-shout the record.
+- Never pay a third party for "investor contacts", "funding agents", pitch-deck packages or
+  followers — these specifically target founders with no money.
 - Never invent data: no fabricated odds, results, fixtures, records or screenshots.
 - Never delete a losing ledger row to "clean up".
 - Never commit secrets, tokens or credentials (API keys for a results/fixtures feed live in

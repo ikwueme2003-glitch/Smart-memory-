@@ -5,8 +5,10 @@
 
 ## Current focus
 
-Standing up the project's persistent memory. The design standard is now recorded
-(`design-references.md`) — no site code has been written or reviewed in this checkout yet.
+Standing up the project's persistent memory, and settling the commercial direction. The
+founder asked about funding/investors/affiliate brands while having no capital. Conclusion
+recorded: **do not fundraise** — the gap is distribution and track record, not money. No site
+code has been written or reviewed in this checkout yet.
 
 ## Repo state
 
@@ -37,6 +39,13 @@ Standing up the project's persistent memory. The design standard is now recorded
   Raycast). Before any UI work: study those sites, write the 3-line design note, match their
   polish/spacing/hierarchy, avoid the banned generic-AI patterns. Craft principles only —
   never copy their assets, logos or trade dress.
+- **No fundraising.** Equity is not the path for this product; the money in this category is
+  affiliate/sponsor money and it comes with the incentive trap documented in
+  `product-context.md`. Sequence is: zero burn → track record → borrowed distribution →
+  sponsorship, then paid depth, then affiliate last.
+- **Commercial independence is now a hard rule** (`../AGENTS.md` §2.8): no partner influences
+  picks; the card and ledger stay free and public; betting-related commercial content carries
+  the required warnings and 18+ treatment.
 
 ## Open questions / blockers
 
@@ -60,9 +69,12 @@ Raise unresolved questions with the user; once answered, move the answer into
    `../AGENTS.md` §4 (badge visible when collapsed; summary derived, not duplicated).
 5. First UI task: run the design-references study procedure (§6 of that file) and write the
    design note before touching markup or CSS.
+6. Commercial: pick ONE distribution channel for the daily card post and commit to it before
+   pursuing any revenue. Chase a small local brand sponsorship first, not an affiliate deal —
+   affiliate approvals favour existing traffic we don't have yet.
 
 ---
 
-**Last updated:** 2026-10-12 — added `design-references.md` (five reference sites, per-site
-takeaways, craft floor, banned generic-AI patterns, study procedure) and wired it into
-`AGENTS.md` §0/§4/§5/§7 as mandatory pre-UI reading.
+**Last updated:** 2026-10-12 — recorded the commercial direction: no fundraising, zero-burn
+sequencing, the affiliate incentive trap (RevShare pays when readers lose), the Ghana Gaming
+Commission rules that apply to affiliates, and commercial independence as a hard rule.
